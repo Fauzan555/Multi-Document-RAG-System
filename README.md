@@ -25,8 +25,8 @@ Ensures traceability and context-aware responses.
 # 5 Extensible & Modular
 Easy to integrate new embedding models or document loaders.
 Functions like load_documents, split_text, and create_vector_store are modular and reusable.
-🗂 # Project Structure
-Multi-Document RAG System/
+# Project Structure
+# Multi-Document RAG System/
 ├─ .venv/                       # Python virtual environment
 ├─ chroma_db/                   # Persistent vector database (generated)
 ├─ 1706326973548.pdf            # Sample PDF document
@@ -40,7 +40,9 @@ Multi-Document RAG System/
 # ⚙️ Installation
 Clone the repository:
 git clone https://github.com/<your-username>/multi-document-rag-system.git
+
 cd multi-document-rag-system
+
 Create a virtual environment:
 python -m venv .venv
 .venv\Scripts\activate  # Windows
